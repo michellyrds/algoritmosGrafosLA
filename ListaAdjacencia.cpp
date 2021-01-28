@@ -850,7 +850,8 @@ void distanciaDigrafo(Digrafo* g, Vertex s){
         parnt[v] = -1;
     }
 
-    //inicializarFila(g->V);
+    Fila* f;
+    inicializarFila(f);
     dist[s] = 0;
     parnt[s] = s;
     //QUEUEput(s);
